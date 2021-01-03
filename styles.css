@@ -1,0 +1,64 @@
+/* Shutterbugg Bootstrap Project Stylesheet
+    12/22/2020 Kristopher Krupski */
+
+div.container {
+    max-width: 1000px;
+}
+
+div.main {
+    background-image: url('../images/intro.jpg');
+    height: 560px;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 5%;
+}
+
+div.main h1 {
+    font-size: 3.5em;
+    font-family: 'Lora', serif;
+}
+
+div.main h2 {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 2%;
+}
+
+div.main a.btn {
+    background-color: skyblue;
+    color: white;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+div.section {
+    padding-top: 3%;
+}
+
+div.row h1 {
+    font-family: 'Lora', serif;
+}
+
+div.row p {
+    font-family: 'Jura', sans-serif;
+    font-size: 2em;
+}
+
+div#store {
+    text-align: center;
+    margin-top: 3%;
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 2%;
+}
+
+div.footer h1 {
+    font-size: 1.75em;
+    margin-top: 5%;
+}
+
+div.footer ul {
+    list-style-type: none;
+}
+
+div.footer a {
+    color: black
+}
